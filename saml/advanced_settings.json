@@ -1,0 +1,33 @@
+{
+    "security": {
+        "nameIdEncrypted": false,
+        "authnRequestsSigned": true,
+        "logoutRequestSigned": true,
+        "logoutResponseSigned": true,
+        "signMetadata": true,
+        "wantMessagesSigned": false,
+        "wantAssertionsSigned": false,
+        "wantNameId" : true,
+        "wantNameIdEncrypted": false,
+        "wantAssertionsEncrypted": false,
+        "signatureAlgorithm": "http://www.w3.org/2000/09/xmldsig#rsa-sha1",
+        "digestAlgorithm": "http://www.w3.org/2000/09/xmldsig#sha1"
+    },
+    "contactPerson": {
+        "technical": {
+            "givenName": "Security Team",
+            "emailAddress": "security@pushf.net"
+        },
+        "support": {
+            "givenName": "SECOPS",
+            "emailAddress": "secops@pushf.net"
+        }
+    },
+    "organization": {
+        "en-US": {
+            "name": "Rosetta",
+            "displayname": "Rosetta Login",
+            "url": "https://rosetta.pushf.net"
+        }
+    }
+}
